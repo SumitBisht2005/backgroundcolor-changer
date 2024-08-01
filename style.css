@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7eff5;
+}
+.btn{
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.container{
+    text-align: center;
+}
+.container>h2{
+    background-color: #222;
+    padding: 20px;
+    color: azure;
+    border-radius: 20px;
+    /* margin: 20px; */
+}
+.btn:hover{
+    background-color: #222;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+.color{
+    color: rgb(12, 83, 107);
+    font-size: 30px;
+}
